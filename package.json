@@ -1,0 +1,28 @@
+{
+  "name": "rohitmishra",
+  "version": "1.0.0",
+  "description": "Rohit mishra portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tailwindcss build ./styles/main.css -o ./styles/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rohitmra/RohitMishra.git"
+  },
+  "author": "Rohit Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitmra/RohitMishra/issues"
+  },
+  "homepage": "https://github.com/rohitmra/RohitMishra#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23"
+  }
+}
