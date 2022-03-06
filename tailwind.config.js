@@ -32,6 +32,7 @@ module.exports = {
         'cl-cyan': '#00B4D8',
         'cl-orange': '#FF4800',
         'cl-violet': '#7209B7',
+        'cl-bg-black': '#030211',
 
         // gradients
 
