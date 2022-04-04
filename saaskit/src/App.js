@@ -9,6 +9,9 @@ import Signup from './Pages/signup'
 import Dashboard from './Pages/dashboard'
 import Account from './Pages/account'
 import Profile from './Pages/profile'
+import Security from './Pages/security'
+import Plans from './Pages/plans'
+import Subscriptions from './Pages/subscription'
 
 function App() {
     return (
@@ -20,6 +23,9 @@ function App() {
                 <Route  path='/dashboard' element={<Dashboard/>}/>
                 <Route  path='/account' element={<Account/>}/>
                 <Route  path='/profile' element={<Profile/>}/>
+                <Route  path='/security' element={<Security/>}/>
+                <Route  path='/Plans' element={<Plans/>}/>
+                <Route  path='/Subscription' element={<Subscriptions/>}/>
             </Routes>
         </div>
     );

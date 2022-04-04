@@ -13,8 +13,8 @@ export default function Home() {
             <h1 className='text-6xl text-primary font-extrabold font-inter mt-20 md:mt-60 xl:pr-10'>Start Crafting your next Idea</h1>
             <p className='text-secondary-dark text-base rounded-lg xl:pr-20 py-5'>This is a saas that will help you build and start fast. So let’s start a new journey by using this saas kit to build you saas future fast, easy and proffessionally.</p>
             <div className='flex space-x-3'>
-                <button class="py-1 px-5 bg-primary hover:bg-blue-700 text-white text-lg rounded-lg">Explore</button>
-                <button class="py-1 px-5 bg-secondary hover:bg-blue-700 text-primary text-lg rounded-lg">Learn more</button>
+              <a href='/dashboard'><button class="py-1 px-5 bg-primary hover:bg-blue-700 text-white text-lg rounded-lg">Explore</button></a>
+              <a href='/'><button class="py-1 px-5 bg-secondary hover:bg-blue-700 text-primary text-lg rounded-lg">Learn more</button></a>
 
             </div>
         </div>
