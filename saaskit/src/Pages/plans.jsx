@@ -16,23 +16,199 @@ export default function Plans() {
                         <div className='w-full mt-5 p-5 lg:mt-0 bg-white border-[1px] border-gray-200 shadow-sm rounded-lg lg:col-span-4'>
                             <h3 className='text-xl font- text-secondary-black mb-2'>Rohit Mishra's Plans</h3>
                             <div className='h-[1px] w-full bg-secondary-dark/20'></div>
-                            <div className='w-full'>
-                                <div className='max-w-[450px] pt-10'>
-                                    <form autoComplete='off'>
-                                        <div class="mb-6">
-                                            <label for="Password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Current Password</label>
-                                            <input type="Password" id="Password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                            <div className='w-full grid grid-cols-1 space-y-3 md:space-y-0 md:grid-cols-3 pt-5'>
+                                <div class="p-3 max-w-[350px] m-auto xl:p-10 bg-white border-2 border-gray-300 w-full rounded-xl" id="payment-card">
+                                    <h2 class="font-medium text-3xl">
+                                        $ 49 <span class="font-normal text-xl">
+                                            /month</span>
+                                    </h2>
+                                    <h3 class="font-medium text-3xl my-2">
+                                        Base</h3>
+                                    <p class="text-lg">
+                                        For freelancers and developers, who want to easily create apps.</p>
+                                    <div class="py-3">
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All premium components</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All premium blocks</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                Special badge in forum</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                Special support from staff</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All free features included</span>
+                                        </span>
+                                        <div class="w-full">
+                                            <a href="#">
+                                                <button class="py-2 px-12 bg-secondary-black text-white text-xl font-medium rounded-lg w-full">
+                                                    Choose Plan</button>
+                                            </a>
                                         </div>
-                                        <div class="mb-6">
-                                            <label for="NewPassword" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">New Password</label>
-                                            <input type="NewPassword" id="NewPassword" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
+                                </div>
+
+
+                                <div class="p-3 xl:p-10 max-w-[350px] m-auto bg-  border-2 border-gray-300 w-full rounded-xl" id="payment-card">
+                                    <h2 class="font-medium text-3xl">
+                                        $ 49 <span class="font-normal text-xl">
+                                            /month</span>
+                                    </h2>
+                                    <h3 class="font-medium text-3xl my-2">
+                                        Base</h3>
+                                    <p class="text-lg">
+                                        For freelancers and developers, who want to easily create apps.</p>
+                                    <div class="py-3">
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All premium components</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All premium blocks</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                Special badge in forum</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                Special support from staff</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All free features included</span>
+                                        </span>
+                                        <div class="w-full">
+                                            <a href="#">
+                                                <button class="py-2 px-12 bg-primary text-white text-xl font-medium rounded-lg w-full">
+                                                    Choose Plan</button>
+                                            </a>
                                         </div>
-                                        <div class="mb-6">
-                                            <label for="CPassword" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Confirm Password</label>
-                                            <input type="CPassword" id="CPassword" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                                    </div>
+                                </div>
+
+
+                                <div class="p-3 xl:p-10 max-w-[350px] m-auto md bg-white border-2 border-gray-300 w-full rounded-xl" id="payment-card">
+                                    <h2 class="font-medium text-3xl">
+                                        $ 49 <span class="font-normal text-xl">
+                                            /month</span>
+                                    </h2>
+                                    <h3 class="font-medium text-3xl my-2">
+                                        Base</h3>
+                                    <p class="text-lg">
+                                        For freelancers and developers, who want to easily create apps.</p>
+                                    <div class="py-3">
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All premium components</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All premium blocks</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                Special badge in forum</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                Special support from staff</span>
+                                        </span>
+                                        <span class="flex space-x-2 mb-2">
+                                            <div class="bg-cl-blue rounded-full">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="28" fill="#D3DEF0">
+                                                    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-4 text-lg">
+                                                All free features included</span>
+                                        </span>
+                                        <div class="w-full">
+                                            <a href="#">
+                                                <button class="py-2 px-12 bg-secondary-black text-white text-xl font-medium rounded-lg w-full">
+                                                    Choose Plan</button>
+                                            </a>
                                         </div>
-                                        <button type="submit" class="text-white bg-primary float-right hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-28 px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Update</button>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>

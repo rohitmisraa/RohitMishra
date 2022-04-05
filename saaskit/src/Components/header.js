@@ -18,7 +18,7 @@ export default function Header() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
       </head>
-      <nav class="bg-white shadow transition-all fixed z-30 w-full 2xl:max-w-[1550px]">
+      <nav class="bg-white shadow transition-all fixed z-30 w-full max-h-20 2xl:max-w-[1550px]">
         <div className='w-full max-h-18 px-5 lg:px-20 md:px-10 py-5 flex justify-between'>
           <div className='flex'>
             <div className='h-8 w-12'>
@@ -57,6 +57,24 @@ export default function Header() {
             <a href='/'><button class="py-2 px-5 font-bold bg-primary hover:bg-blue-700 hover:text-white text-white text-base text-left w-full">Sign Up</button></a>
           </div>
         </div>
+
+        <div className='border-[1px] border-secondary-dark/20 pb-2 rounded-lg float-right mr-14 hidden smd:block w-48 m-auto bg-white'>
+                    <div className='w-full p-3 pb-2'>
+                        <h3 className='text-base font-semibold'>Rohit Mishra</h3>
+                        <button class="px-1 py-1 bg-secondary m-auto text-center font-semibold text-secondary-black text-xs rounded-lg">Free Plan</button>
+                    </div>
+                    <div className='w-full h-[1px] mt-2 bg-secondary-dark/30'></div>
+                    <a href='/profile' className='w-full'><button type="button" class="text-secondary-black hover:bg-secondary/25 w-full focus:ring-4 focus:outline-none  text-base text-left px-3 py-1 inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2">
+                        My Profile
+                    </button></a>
+                    <a href='/Settings' className='w-full'><button type="button" class="text-secondary-black hover:bg-secondary/25 w-full focus:ring-4 focus:outline-none  text-base text-left px-3 py-1 inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2">
+                        Settings
+                    </button></a>
+                    <div className='w-full h-[1px] mt-2 bg-secondary-dark/30'></div>
+                    <a href='/Settings' className='w-full'><button type="button" class="text-secondary-black hover:bg-secondary/25 w-full focus:ring-4 focus:outline-none  text-base text-left px-3 py-1 inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2">
+                        Sign Out
+                    </button></a>
+                </div>
       </nav>
     </div>
 
