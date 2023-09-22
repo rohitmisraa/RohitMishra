@@ -604,12 +604,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3.5rem;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-24 {
   height: 6rem;
 }
 
-.h-1 {
-  height: 0.25rem;
+.h-4 {
+  height: 1rem;
 }
 
 .h-96 {
@@ -694,12 +698,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 1.5rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-\[40px\] {
@@ -764,6 +768,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(239 35 60 / 0));
 }
 
+.from-\[\#f9e50d\] {
+  --tw-gradient-from: #f9e50d;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(249 229 13 / 0));
+}
+
 .from-gr_green-1 {
   --tw-gradient-from: rgba(37,162,68,1);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(37 162 68 / 0));
@@ -776,6 +785,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-gr_red-2 {
   --tw-gradient-to: rgba(239,84,35,1);
+}
+
+.to-\[\#f58c15\] {
+  --tw-gradient-to: #f58c15;
 }
 
 .to-gr_green-2 {
