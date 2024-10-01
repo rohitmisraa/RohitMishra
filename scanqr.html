@@ -109,10 +109,11 @@
 
             // If found your QR code
             function onScanSuccess(decodeText, decodeResult) {
-                alert("QR Code Scanned: " + decodeText);
+                // alert("QR Code Scanned: " + decodeText);
 
                 // Define the URL where the GET request will be sent
                 const url = '/attend/' + decodeResult; // Replace with your actual URL
+                window.location.href = url;
 
                 // Send the QR data via a GET request using fetch
                 fetch(`${url}?qrData=${encodeURIComponent(decodeText)}`)
